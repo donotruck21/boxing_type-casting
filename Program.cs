@@ -15,7 +15,7 @@ namespace ConsoleApplication
             boxes.Add(true);
 
             int boxSum = 0;
-            for (var idx = 0; idx < boxes.Count; idx++){
+            for (int idx = 0; idx < boxes.Count; idx++){
                 if (boxes[idx] is int){
                     boxSum = boxSum + (int) boxes[idx];
                 }
